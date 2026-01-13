@@ -34,10 +34,10 @@ following up on email correspondence with @steveklabnik
 ```
 
 ### Example:
-```
+```bash
 $ git clone https://github.com/rust-lang/rust /tmp/rust
 $ export GIT_DIR=/tmp/rust/.git
-$ git lg | jq -r '.[].author_name' | sort | uniq -c | sort -nrk1 | head
+$ git lg | jq -r '.[].author_name' | sort | uniq -c | sort -nrk1 
   14399 bors
    5503 Brian Anderson
    4791 Alex Crichton
