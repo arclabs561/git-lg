@@ -3,7 +3,6 @@ git-lg
 
 `git-lg` is like `git log` but with structured output.
 
-[![Linux build status](https://travis-ci.org/henrywallace/git-lg.svg)](https://travis-ci.org/henrywallace/git-lg.svg)
 
 If the binary is in your path you can run simply run `git lg` as git will
 automatically pick it up as a subcommand. Use the `GIT_DIR=/path/to/.git` env
@@ -25,7 +24,11 @@ following fields:
     "committer_name": "GitHub",
     "committer_date": "2019-02-05T15:29:17",
     "subject": "Rollup merge of #58169 - boringcactus:patch-1, r=alexcrichton",
-    "body": "\nUpdate contributor name in .mailmap\n\nfollowing up on email correspondence with @steveklabnik\n"
+    "body": "
+Update contributor name in .mailmap
+
+following up on email correspondence with @steveklabnik
+"
   }
 ]
 ```
