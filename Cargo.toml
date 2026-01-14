@@ -3,6 +3,9 @@ name = "git-lg"
 version = "0.1.0"
 authors = ["Henry Wallace <henry@henrywallace.io>"]
 edition = "2018"
+description = "Structured git log output"
+repository = "https://github.com/arclabs561/git-lg"
+license = "MIT OR Unlicense"
 
 [[bin]]
 name = "git-lg"
